@@ -1,0 +1,25 @@
+
+/*Login*/
+
+.loginForm{
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 10%;
+}
+
+.form-check{
+  text-align:left;
+}
+
+#inputEmail{
+  width: 20rem;
+}
+
+#inputPassword {
+width: 20rem;
+}
+
+.signInBtn {
+width: 15rem;
+}
