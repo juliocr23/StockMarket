@@ -1,23 +1,43 @@
 
+body {
+background-color:  #252a34;
+/* text-align: center; */
+}
+
 /*Login*/
 
-.loginForm{
+#login{
+  color: #f8f8f8;
+  width: 25rem;
+  height: 20rem;
   text-align: center;
+
   margin-left: 35%;
   margin-right: 35%;
   margin-top: 10%;
+  background-color: #413c69;
+  opacity: 0.9;
 }
 
-.form-check{
-  text-align:left;
+/* .form-group{
+text-align: center;
+display: inline-block;
+} */
+
+.form-group {
+  display: inline-block;
+}
+.form-check {
+text-align: left;
+padding-left: 3.8rem;
 }
 
-#inputEmail{
+
+
+
+
+#inputEmail,#inputPassword{
   width: 20rem;
-}
-
-#inputPassword {
-width: 20rem;
 }
 
 .signInBtn {
