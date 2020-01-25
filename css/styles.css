@@ -1,7 +1,6 @@
 
 body {
 background-color:  #252a34;
-/* text-align: center; */
 }
 
 /*Login*/
@@ -9,20 +8,17 @@ background-color:  #252a34;
 #login{
   color: #f8f8f8;
   width: 25rem;
-  height: 20rem;
+  height: 22rem;
   text-align: center;
 
-  margin-left: 35%;
-  margin-right: 35%;
-  margin-top: 10%;
+  margin: 10% 35% 0 35%;
   background-color: #413c69;
   opacity: 0.9;
 }
 
-/* .form-group{
-text-align: center;
-display: inline-block;
-} */
+.sign-title{
+  padding: 1rem;
+}
 
 .form-group {
   display: inline-block;
@@ -30,16 +26,14 @@ display: inline-block;
 .form-check {
 text-align: left;
 padding-left: 3.8rem;
+padding-bottom: 1rem;
 }
 
-
-
-
-
-#inputEmail,#inputPassword{
+#inputEmail,#inputPassword, #inputName{
   width: 20rem;
 }
 
 .signInBtn {
 width: 15rem;
+margin-bottom: 1rem;
 }
